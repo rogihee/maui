@@ -10,6 +10,7 @@ namespace Microsoft.Maui.Handlers
 			[nameof(ILabel.MaxLines)] = MapMaxLines,
 			[nameof(ILabel.Font)] = MapFont,
 			[nameof(ILabel.Padding)] = MapPadding,
+			[nameof(ILabel.TextDecorations)] = MapTextDecorations
 		};
 
 		public LabelHandler() : base(LabelMapper)
